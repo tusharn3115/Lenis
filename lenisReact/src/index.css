@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scrollbar-width: thin;
+}
+
+.elem {
+    grid-column: var(--c);
+    grid-row: var(--r);
+}
+
+.elem img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.5);
+}
